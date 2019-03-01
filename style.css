@@ -26,7 +26,28 @@ body{
 }
 
 #topbar{
-	margin-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	background-color: #128870;
+	color: white;
+	padding: 10px;
+	height: 180px;
+}
+
+#topbarL{
+	float: left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #ccc;
+}
+
+#topbarR{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
 }
 
 #sidebar{
@@ -44,6 +65,7 @@ body{
 .option{
 	float: left;
 	min-width: 50px;
+	min-height: 33px;
 	heigh: 25px;
 	font-size: 18px;
 	padding: 10px 20px;
@@ -61,4 +83,4 @@ body{
 	font-size: 20px;
 	background-color: #8c8c8c;
 	opacity: 1;
-{
+}
