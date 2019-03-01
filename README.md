@@ -2,7 +2,13 @@
 
 First steps in CSS.
 
-.# CSS:
+
+.#CSS:
+
+	- #name_id								for infividual style
+	- .name_class							for elements with thesame style
+	- color: #xxxxxx; / color_name;			for 16 color code / regular colors
+
 
 .# Sources:
 
