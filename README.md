@@ -9,10 +9,16 @@ First steps in CSS.
 	- .name_class							for elements with thesame style
 	- color: #xxxxxx; / color_name;			for 16 color code / regular colors
 	- font-family							to use google fonts chose, link in html and style in CSS
-	- border: sixe type color;				dotted, solid
+	- border: size type color;				dotted, solid, dashed
 	- cursor: type;							pointer
 	- opacity: 0.x;							to chenge opacity
+	- float: left;							to put dives glue in right side, remember about size of div
+	- <div style="clear:both;"></div>		to reset float: left;
 
+
+.#CSS:
+
+	- <span>								interline tag
 
 .# Sources:
 

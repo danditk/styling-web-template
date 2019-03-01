@@ -51,22 +51,40 @@ body{
 }
 
 #sidebar{
-	
+	float: left;
+	width: 198px;
+	min-height: 770px;
+	padding: 20px;
+	background-color: #808080;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #fff;
 }
 
 #content{
-	
+	float: left;
+	padding: 40px;
+	width: 680px;
+	min-height: 700px;
+	background-color: #808080;
+	color: #fff;
+	text-align: justify;
 }
 
 #footer{
-	
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font size: 18px;
+	background-color: #999;
 }
 
 .option{
 	float: left;
 	min-width: 50px;
 	min-height: 33px;
-	heigh: 25px;
 	font-size: 18px;
 	padding: 10px 20px;
 	border-right: 2px dotted #fff;
@@ -75,7 +93,8 @@ body{
 }
 
 .option:first-child{
-	backgroun-color: red;
+	border-left: 2px dotted #fff;
+	margin-left: 70px;
 }
 
 .option:hover{
@@ -83,4 +102,38 @@ body{
 	font-size: 20px;
 	background-color: #8c8c8c;
 	opacity: 1;
+}
+
+.optionL{
+	min-height: 33px;
+	font-size: 18px;
+	padding: 10px;
+	border-bottom: 2px dotted #fff;
+	opacity: 0.7;
+	transition-duration: 0.25s;
+}
+
+.optionL:first-child{
+	border-top: 2px dotted #fff;
+	margin-top: 190px;
+}
+
+.optionL:hover{
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #8c8c8c;
+	opacity: 1;
+}
+
+.bigtitle{
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.dottedline{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #fff;
 }
