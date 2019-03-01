@@ -8,7 +8,10 @@ First steps in CSS.
 	- #name_id								for infividual style
 	- .name_class							for elements with thesame style
 	- color: #xxxxxx; / color_name;			for 16 color code / regular colors
-	- 										to use google fonts chose, link in html and style in CSS
+	- font-family							to use google fonts chose, link in html and style in CSS
+	- border: sixe type color;				dotted, solid
+	- cursor: type;							pointer
+	- opacity: 0.x;							to chenge opacity
 
 
 .# Sources:
