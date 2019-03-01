@@ -1,6 +1,8 @@
 # styling-web-tamplate
 
+First steps in CSS.
 
+.# CSS:
 
 .# Sources:
 
